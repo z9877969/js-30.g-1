@@ -1,0 +1,12 @@
+<ul>
+  {{#each list}}
+    <li>
+      <img
+        src={{this.webformatURL}}
+        alt={{this.tags}}
+        width='400'
+        data-source={{this.largeImageURL}}
+      />
+    </li>
+  {{/each}}
+</ul>
